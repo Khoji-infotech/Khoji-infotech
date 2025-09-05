@@ -5,10 +5,12 @@ const Header = () => {
   return (
     <header className="w-full bg-white/95 backdrop-blur-sm shadow-sm border-b border-orange-100 sticky top-0 z-50">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
-        <div className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-gradient-to-br from-red-600 to-red-700 rounded-full flex items-center justify-center">
-            <span className="text-white font-bold text-xs">K</span>
-          </div>
+        <div className="flex items-center space-x-3">
+          <img 
+            src="/lovable-uploads/0d2b8871-26f7-4feb-9b66-94110480021a.png" 
+            alt="Ujjain Kumbh Simhastha 2028 Logo"
+            className="w-10 h-10 object-contain"
+          />
           <span className="font-bold text-lg text-gray-800">KHHOJI.in</span>
         </div>
         
