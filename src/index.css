@@ -2,39 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Spiritual Design System for Ujjain Kumbh App - All colors MUST be HSL */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Sacred color palette inspired by Hindu traditions */
+    --background: 35 100% 97%;
+    --foreground: 15 40% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 15 40% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 15 40% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Sacred saffron as primary */
+    --primary: 25 100% 50%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Soft spiritual secondary */
+    --secondary: 35 50% 92%;
+    --secondary-foreground: 15 40% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted spiritual tones */
+    --muted: 35 30% 90%;
+    --muted-foreground: 25 20% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Sacred red accent */
+    --accent: 355 85% 55%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 35 25% 85%;
+    --input: 35 25% 85%;
+    --ring: 25 100% 50%;
+
+    /* Spiritual gradients */
+    --gradient-sacred: linear-gradient(135deg, hsl(25 100% 50%), hsl(355 85% 55%));
+    --gradient-divine: linear-gradient(180deg, hsl(35 100% 97%), hsl(35 50% 92%));
+    --gradient-temple: linear-gradient(135deg, hsl(240 50% 35%), hsl(280 60% 45%));
+    
+    /* Sacred shadows */
+    --shadow-sacred: 0 8px 32px hsl(25 100% 50% / 0.2);
+    --shadow-divine: 0 4px 16px hsl(355 85% 55% / 0.15);
+    --shadow-temple: 0 12px 40px hsl(240 50% 35% / 0.3);
+
+    /* Smooth sacred transitions */
+    --transition-sacred: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
     --radius: 0.5rem;
 
@@ -56,33 +72,34 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    /* Dark spiritual theme */
+    --background: 15 25% 8%;
+    --foreground: 35 50% 92%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 15 30% 12%;
+    --card-foreground: 35 50% 92%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 15 30% 12%;
+    --popover-foreground: 35 50% 92%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 25 100% 55%;
+    --primary-foreground: 15 25% 8%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 15 20% 18%;
+    --secondary-foreground: 35 50% 92%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 15 20% 18%;
+    --muted-foreground: 35 30% 65%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 355 80% 60%;
+    --accent-foreground: 15 25% 8%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 35 50% 92%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    --border: 15 20% 20%;
+    --input: 15 20% 20%;
+    --ring: 25 100% 55%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -100,6 +117,33 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-medium;
+    background: var(--gradient-divine);
+  }
+
+  /* Sacred typography */
+  .text-sacred {
+    background: var(--gradient-sacred);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Sacred button animations */
+  .btn-sacred {
+    transition: var(--transition-sacred);
+    box-shadow: var(--shadow-sacred);
+  }
+  
+  .btn-sacred:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-temple);
+  }
+
+  /* Divine card styling */
+  .card-divine {
+    background: linear-gradient(135deg, hsl(var(--card)) 0%, hsl(var(--secondary)) 100%);
+    border: 1px solid hsl(var(--border));
+    box-shadow: var(--shadow-divine);
   }
 }
