@@ -9,6 +9,7 @@ const ActionButtons = () => {
           variant="divine" 
           size="lg" 
           className="w-full h-14 text-base font-semibold rounded-2xl"
+          onClick={() => window.open('https://khoji.in/NonKyc/add_mahakumbh_member_special?type=khoya', '_blank')}
         >
           <Upload className="h-5 w-5 mr-3" />
           Upload Khoya
@@ -18,6 +19,7 @@ const ActionButtons = () => {
           variant="divine" 
           size="lg" 
           className="w-full h-14 text-base font-semibold rounded-2xl"
+          onClick={() => window.open('https://khoji.in/NonKyc/add_mahakumbh_member_special?type=paya', '_blank')}
         >
           <User className="h-5 w-5 mr-3" />
           Upload Paya
@@ -27,6 +29,7 @@ const ActionButtons = () => {
           variant="divine" 
           size="lg" 
           className="w-full h-14 text-base font-semibold rounded-2xl"
+          onClick={() => window.open('https://khoji.in/NonKyc/add_mahakumbh_member_special?type=general', '_blank')}
         >
           <FileText className="h-5 w-5 mr-3" />
           Upload General
@@ -36,6 +39,7 @@ const ActionButtons = () => {
           variant="divine" 
           size="lg" 
           className="w-full h-14 text-base font-semibold rounded-2xl"
+          onClick={() => window.open('https://khoji.in/check-person-face-funnel', '_blank')}
         >
           <Search className="h-5 w-5 mr-3" />
           Search By Face Photo
