@@ -11,7 +11,7 @@ const Header = () => {
             alt="Ujjain Kumbh Simhastha 2028 Logo"
             className="w-10 h-10 object-contain"
           />
-          <span className="font-bold text-lg text-gray-800">KHHOJI.in</span>
+          <span className="font-bold text-lg text-gray-800">Lapata.in</span>
         </div>
         
         <div className="flex items-center space-x-3">
