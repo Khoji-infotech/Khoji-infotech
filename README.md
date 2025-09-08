@@ -1,4 +1,7 @@
 One-Page Summary – AI Powered Lost & Found Centre (Simhastha 2028, Ujjain)
+
+
+
 In 2028, Ujjain will host Simhastha, expecting nearly 12 crore devotees. With such a massive crowd, many people go missing, get separated from families, or are found unidentified, as we have already seen in earlier Kumbh gatherings. This puts a heavy burden on families, volunteers, and police.
 To solve this, our team has built a working prototype of an AI-powered Lost & Found Centre. It is not just an idea, but a tested system that uses AI, Deep Learning, and Machine Learning to reunite missing persons with their families quickly and accurately, while reducing the load on authorities.
 How it Works
