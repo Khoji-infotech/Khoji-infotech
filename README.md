@@ -15,7 +15,7 @@ This initiative brings together technology and humanity. With an easy-to-use por
 
 
 
-Key Features & Functionalities
+Key Features & Functionalities -
 Our AI-powered Lost & Found Centre for Simhastha 2028 is designed with powerful features to ensure speed, accuracy, and ease of use:
 •	User-Friendly Portal: Smooth and simple interface for families, police, and volunteers (as shown in the demo video).
 •	Interconnected Database: All Lost & Found Centres in the mela are linked, ensuring centralized data access.
@@ -28,14 +28,14 @@ o	Identity & Manual Search – Search by ID proofs or apply filters for refined 
 •	Smart Notifications: Matches trigger SMS, WhatsApp, and Push Notifications so concerned families or authorities are immediately alerted.
 
 The Core Problem Being Addressed
-AI Based Lost & Found Centre – Safety ,Security , Surveillance 
+AI Based Lost & Found Centre – Safety ,Security , Surveillance -
 
 Simhastha 2028 in Ujjain is expected to welcome nearly 12 crore devotees. Managing such a mega gathering is an enormous challenge for authorities, police, and volunteers to ensure smooth execution. Among the many issues, one of the biggest recurring problems is that of lost and found persons devotees who get separated from their families or unidentified persons rescued by police and volunteers.
 Traditionally, handling these cases has been manual, slow, and resource-heavy, creating huge pressure on authorities as distressed families crowd lost and found centres.
 To overcome this, there is a pressing need for a technology-driven system that can accurately, quickly, and efficiently reunite missing persons with their families.
 Our team has developed a working AI-powered solution that addresses this challenge with advanced features like face recognition, age progression, voice-based search, and instant notifications, ensuring a safe and efficient Simhastha 2028.
 
-Clear Overview of Prototype / Idea
+Clear Overview of Prototype / Idea -
 
 Simhastha 2028 in Ujjain will see a gathering of nearly 12 crore devotees. In such massive events, one of the most painful problems is when people go missing, separated from their families, or found unidentified. Families panic, police and volunteers struggle, and the burden on authorities grows.
 To solve this, we have built a working AI-powered Lost & Found Centre a simple, user-friendly system that uses modern technology to reunite families quickly and with less effort.
